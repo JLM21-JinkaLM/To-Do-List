@@ -1,0 +1,20 @@
+.noFound{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.carder{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:750px) {
+    .carder{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
